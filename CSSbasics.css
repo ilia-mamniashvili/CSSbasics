@@ -45,22 +45,26 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     background-color:rgb(14, 14, 71) ;
     min-height: 50vh;
 }
 
-.grid_wrapper{    
+/* .grid_wrapper{    
     display: grid;
     grid-gap: 50px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    
+     */
 
-}
+/* } */
 .grid_img{
-     
+     display: flex;
+     justify-content: center;
+
+
     /* margin-right: 20px; */
     background-color: rgb(24, 111, 161);
-    max-width:100%;
+    max-width:400px;
 }
 
 .footer{
