@@ -41,7 +41,7 @@ a{
     
 }
 
-.grid{
+.flex{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,10 +57,10 @@ a{
      */
 
 /* } */
-.grid_img{
+.flex_img{
      display: flex;
      justify-content: center;
-
+    margin: 20px;
 
     /* margin-right: 20px; */
     background-color: rgb(24, 111, 161);
